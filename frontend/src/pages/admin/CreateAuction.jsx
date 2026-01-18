@@ -214,7 +214,7 @@ const categoryFields = {
         { name: 'motExpiry', label: 'MOT Expiry Date', type: 'date', required: false },
         { name: 'serviceHistory', label: 'Service History', type: 'select', required: false, options: ['Full Service', 'Part Service', 'No History'] },
         { name: 'insuranceCategory', label: 'Insurance Category', type: 'select', required: false, options: ['No Cat', 'CAT D', 'CAT S', 'CAT N'] },
-        { name: 'v5Status', label: 'V5 Status', type: 'select', required: false, options: ['V5 Present', 'Applied For', 'Not Available'] },
+        { name: 'v5Status', label: 'V5 Status', type: 'select', required: false, options: ['V5 Present', 'Scanned Copy', 'Applied For', 'Not Available'] },
         { name: 'previousOwners', label: 'Previous Owners', type: 'number', required: false, min: 0 },
         { name: 'vatStatus', label: 'VAT Status', type: 'select', required: false, options: ['Marginal', 'Qualifying', 'Commercial'] },
         { name: 'euroStatus', label: 'Euro Status', type: 'text', required: false, placeholder: 'e.g., EURO 6' },
